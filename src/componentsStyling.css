@@ -1,0 +1,14 @@
+input[type="search"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 7px !important;
+    /* Αφαιρεί το border by default */
+    /* Άλλα στυλ εδώ */
+}
+
+input[type="search"]:focus {
+    font-size: 1.1rem;
+    border-width:thin;
+    outline: none;
+}
